@@ -23,7 +23,9 @@
         <a>WG-Verwaltung</a>
         </div>
         <div class="login">
-        <a href="#"><i class="fa fa-user-circle"></i>   Login</a>
+            <form id="logout" method="POST"  th:action="@{/logout}">
+                <button type="submit" class="fa fa-sign-out"></button>
+            </form>
         </div>
 
     </div>
